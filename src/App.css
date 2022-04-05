@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(71, 120, 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-container{
+  display: flex;
+    justify-content: space-around;
+    width: 75%;
+    flex-wrap: wrap;
+}
+.App-container .login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 15px;
+}
+
+.ticket-container{
+  width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  height: 70vh;
+}
+
+.text-input {
+  padding: 2%;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-list {
+  width: 27vw;
+  height: 90%;
+  overflow: auto;
+  background-color: white;
+  border-radius: 15px;
+}
+.todo-container .display-none{
+  display: none;
+}
+.todo-container .display{
+  color: grey;
+  opacity: 0.4;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container ul {
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  margin: 5px;
+    padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+.todo-item {
+  margin: 5px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.todo-content {
+  padding: 10px;
+  width: 67%;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.todo-content p {
+  margin: 5px 0;
+}
