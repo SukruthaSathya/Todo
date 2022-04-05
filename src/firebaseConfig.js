@@ -3,13 +3,15 @@ import 'firebase/firestore'
 import "firebase/auth"
 import "firebase/database"
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDW-fqM5Jw__Ox1tsqaeYBnl_BX1ZM4mns",
-  authDomain: "todo1-66c0a.firebaseapp.com",
-  projectId: "todo1-66c0a",
-  storageBucket: "todo1-66c0a.appspot.com",
-  messagingSenderId: "843353889754",
-  appId: "1:843353889754:web:dd8a5351af3e3ce37e7ee3"
+  apiKey: "AIzaSyDOF0xTsoXzJVRC_k9fh_FzltACWT8q5x8",
+  authDomain: "todo-9d9f8.firebaseapp.com",
+  projectId: "todo-9d9f8",
+  storageBucket: "todo-9d9f8.appspot.com",
+  messagingSenderId: "913015063188",
+  appId: "1:913015063188:web:64c7542728f1118a18ea81",
+  measurementId: "G-9P78C57SHG"
 };
   export default firebase.initializeApp(firebaseConfig);
    
